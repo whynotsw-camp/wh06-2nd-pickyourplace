@@ -196,9 +196,8 @@ cython_debug/
 # added
 *.csv
 db/
-*.xlsx
+# *.xlsx
 *.geojson
 data/mysql/
 admdongkor-master/
-*.pdf
-*zip
+*.zip
