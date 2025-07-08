@@ -167,28 +167,29 @@ Streamlit과 GeoPandas를 활용한 웹 대시보드 상에서 서울시 지도�
 
 | 번호 | 데이터명 | 출처 링크 | 설명 |
 |------|----------|-----------|------|
-| 1 | 서울시 5대 범죄 발생현황 통계 | [바로가기](https://data.seoul.go.kr/dataList/316/S/2/datasetView.do) | 자치구별 범죄 통계 |
-| 2 | 서울시 인구밀도 통계 | [바로가기](https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do) | 서울시 인구 밀도 정보 |
-| 3 | 서울시 대규모점포 인허가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-16096/S/1/datasetView.do) | 대형마트, 백화점 등 유통시설 위치 |
-| 4 | 서울시 휴게음식점 인허가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do) | 카페, 분식집 등 식음료 매장 위치 |
-| 5 | 서울시 금융기관 통계 | [바로가기](https://data.seoul.go.kr/dataList/10129/S/2/datasetView.do) | 은행, 금융기관 수 및 위치 |
-| 6 | 편의점 | [바로가기](https://safemap.go.kr/opna/data/dataView.do?objtId=145) | 전국 편의점 위치 정보 |
-| 7 | 전통시장현황 | [바로가기](https://www.data.go.kr/data/15052837/fileData.do) | 전국 전통시장 위치 정보 |
-| 8 | 경찰서 | [바로가기](https://www.data.go.kr/data/15124966/fileData.do) | 전국 경찰서 위치 정보 |
-| 9 | 서울시 병의원 위치 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-20337/S/1/datasetView.do) | 병원 및 의원 위치 정보 |
+| 1  | 서울시 5대 범죄 발생현황 통계 | [바로가기](https://data.seoul.go.kr/dataList/316/S/2/datasetView.do) | 자치구별 범죄 통계 |
+| 2  | 서울시 인구밀도 통계 | [바로가기](https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do) | 서울시 인구 밀도 정보 |
+| 3  | 서울시 대규모점포 인허가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-16096/S/1/datasetView.do) | 대형마트, 백화점 등 유통시설 위치 |
+| 4  | 서울시 휴게음식점 인허가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do) | 카페, 분식집 등 식음료 매장 위치 |
+| 5  | 서울시 금융기관 통계 | [바로가기](https://data.seoul.go.kr/dataList/10129/S/2/datasetView.do) | 은행, 금융기관 수 및 위치 |
+| 6  | 편의점 | [바로가기](https://safemap.go.kr/opna/data/dataView.do?objtId=145) | 전국 편의점 위치 정보 |
+| 7  | 전통시장현황 | [바로가기](https://www.data.go.kr/data/15052837/fileData.do) | 전국 전통시장 위치 정보 |
+| 8  | 경찰서 | [바로가기](https://www.data.go.kr/data/15124966/fileData.do) | 전국 경찰서 위치 정보 |
+| 9  | 서울시 병의원 위치 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-20337/S/1/datasetView.do) | 병원 및 의원 위치 정보 |
 | 10 | 서울시 병원 인허가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-16479/S/1/datasetView.do) | 병원 인허가 기반 상세 정보 |
 | 11 | 서울시 학교 기본정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-20502/S/1/datasetView.do) | 초·중·고 등 학교 위치 |
-| 12 | 서울시 자치회관 현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-21246/F/1/datasetView.do) | 자치회관(공공시설) 위치 정보 |
-| 13 | 서울시 주요 공원현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do) | 대형 공원 위치 및 면적 정보 |
-| 14 | 버스정류소 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do) | 서울시 버스정류장 위치 정보 |
-| 15 | 지하철역 좌표정보 | [바로가기](https://t-data.seoul.go.kr/category/dataviewopenapi.do?data_id=1036) | 지하철역 위치 좌표 정보 |
-| 16 | 전국 안전비상벨 위치 데이터 | [바로가기](https://www.data.go.kr/data/15028206/standard.do) | 비상벨 설치 위치 정보 |
-| 17 | 서울시 안심이 CCTV 연계 현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-20923/S/1/datasetView.do) | CCTV 설치 위치 및 수량 |
-| 18 | 서울특별시 가로등 위치 정보 | [바로가기](https://www.data.go.kr/data/15107934/fileData.do) | 가로등 위치 및 설치 목적 |
-| 19 | 서울시 부동산 전월세가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-21276/S/1/datasetView.do) | 전세/월세 가격 정보 |
-| 20 | 서울시 부동산 실거래가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-21275/S/1/datasetView.do) | 매매 실거래가 정보 |
-| 21 | 행정동 경계 GeoJSON | [바로가기](https://github.com/vuski/admdongkor) | 법정동/행정동 경계 지도 (GeoJSON 포맷) |
-| 22 | 행정동/법정동 코드 데이터 | [바로가기](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=118603) | 주소 매핑 및 코드 변환용 기준 데이터 |
+| 12 | 서울시 공공도서관 현황정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do) | 공공도서관 위치 및 면적 정보 |
+| 13 | 서울시 자치회관 현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-21246/F/1/datasetView.do) | 자치회관(공공시설) 위치 정보 |
+| 14 | 서울시 주요 공원현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do) | 대형 공원 위치 및 면적 정보 |
+| 15 | 버스정류소 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do) | 서울시 버스정류장 위치 정보 |
+| 16 | 지하철역 좌표정보 | [바로가기](https://t-data.seoul.go.kr/category/dataviewopenapi.do?data_id=1036) | 지하철역 위치 좌표 정보 |
+| 17 | 전국 안전비상벨 위치 데이터 | [바로가기](https://www.data.go.kr/data/15028206/standard.do) | 비상벨 설치 위치 정보 |
+| 18 | 서울시 안심이 CCTV 연계 현황 | [바로가기](https://data.seoul.go.kr/dataList/OA-20923/S/1/datasetView.do) | CCTV 설치 위치 및 수량 |
+| 19 | 서울특별시 가로등 위치 정보 | [바로가기](https://www.data.go.kr/data/15107934/fileData.do) | 가로등 위치 및 설치 목적 |
+| 20 | 서울시 부동산 전월세가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-21276/S/1/datasetView.do) | 전세/월세 가격 정보 |
+| 21 | 서울시 부동산 실거래가 정보 | [바로가기](https://data.seoul.go.kr/dataList/OA-21275/S/1/datasetView.do) | 매매 실거래가 정보 |
+| 22 | 행정동 경계 GeoJSON | [바로가기](https://github.com/vuski/admdongkor) | 법정동/행정동 경계 지도 (GeoJSON 포맷) |
+| 23 | 행정동/법정동 코드 데이터 | [바로가기](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=118603) | 주소 매핑 및 코드 변환용 기준 데이터 |
 
 ---
 
