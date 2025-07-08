@@ -12,14 +12,13 @@
 | 날짜            | 주요 작업                          | 담당자               |
 |-----------------|-----------------------------------|----------------------|
 | 06.26           | 아이디어 회의, 기획안 초안 작성       | 전원 참여             |
-| 06.26~06.27     | 데이터 수집 및 정제, 단위 정의        | 강민혁, 김채린, 이찬웅, 조선영 |
-| 06.27~06.30     | 통계 로직 설계 (범죄, 교통 등 6종)     | 각 항목별 담당자        |
+| 06.26~06.27     | 데이터 수집 및 정제, 단위 정의        | 강민혁, 이찬웅, 조선영, 김채린 |
 | 06.30           | 최종 점수 계산 및 DB 저장            | 강민혁               |
 | 07.01           | Streamlit 기반 프론트 UI 구현        | 강민혁               |
-| 07.01           | 지도 시각화 구현                    | 김채린               |
-| 07.01           | 백엔드 지역 추천 로직 완성            | 이찬웅               |
+| 07.01           | 지도 시각화 구현                    | 강민혁               |
+| 07.01           | 지역 추천 로직 완성                  | 김채린               |
 | 07.01           | 예외 상황 대응 및 입력값 테스트        | 김채린, 조선영         |
-| 07.02           | PPT 제작                          | 조선영                 |
+| 07.01~07.02     | PPT 제작, 발표 준비                  | 조선영, 이찬웅        |
 | 07.02           | 최종 발표                            | 전체                 |
 
 ---
@@ -87,7 +86,7 @@ Streamlit과 GeoPandas를 활용한 웹 대시보드 상에서 서울시 지도�
 | 시각화     | [Streamlit](https://streamlit.io)    |
 | 지도처리   | [GeoPandas](https://geopandas.org)   |
 | 데이터 처리| [Pandas](https://pandas.pydata.org) |
-| 데이터베이스 | MySQL    |
+| 데이터베이스 | MySQL   |
 | 공공 API   | [VWorld](https://www.vworld.kr) / [서울 열린데이터광장](https://data.seoul.go.kr) |
 | 버전관리   | [Git](https://git-scm.com) / [GitHub](https://github.com) |
 | 협업 툴    | [Notion](https://www.notion.so) / [draw.io](https://draw.io) |
@@ -130,7 +129,6 @@ Streamlit과 GeoPandas를 활용한 웹 대시보드 상에서 서울시 지도�
 - 기능 및 비기능 요구사항 포함
 - 데이터 수집, 정제, 가중치 설정, 지도 시각화, UI 요구사항 등 명세화
 ![요구사항 정의서](assets/yogu.png)
-
 
 ---
 
@@ -195,5 +193,3 @@ Streamlit과 GeoPandas를 활용한 웹 대시보드 상에서 서울시 지도�
 
 - [🔗 GitHub 저장소](https://github.com/lgup6-2nd-project/pick-your-place)
 - [📝 Notion 문서](https://www.notion.so/2-21ede793ce9b8085a10beef9fdae0788?p=21fde793ce9b80fba1fad43b312bbeb7&pm=s)
-
-
